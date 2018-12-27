@@ -147,8 +147,10 @@
   
   body > header img {
     width: 800px;
-    height: 300px;
+    height: 1100px;
     margin: 0 auto;
+    margin-bottom: -400px;
+    margin-top: -400px;
     display: block; }
     @media all and (max-width: 660px) {
       body > header img {
