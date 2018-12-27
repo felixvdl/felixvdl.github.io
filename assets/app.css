@@ -13,16 +13,18 @@
     width: 640px;
     margin: 0 auto;
   }
-  
+  @media (max-width: 660px) {
+    .grater-full {
+      width: 80vw;
+      margin: 0 auto;
+    }
+  }
   @media all and (max-width: 660px) {
     .grater-container {
       width: 300px;
       }
     }
-    .grater-full {
-      width: 80vw;
-      margin: 0 auto;
-    }
+
   
     .grater {
         zoom: 1
